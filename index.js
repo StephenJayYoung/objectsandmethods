@@ -24,7 +24,9 @@
 
 module.exports.whoWonTheRace = function() {
 console.log(person[0]);
+var result = person[0]);
 };
+return result;
 
 
 /**
