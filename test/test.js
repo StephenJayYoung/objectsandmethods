@@ -3,8 +3,15 @@ var lib = require('../index');
 var runARace = lib.runARace;
 
 
-describe('Run a race()", function() {
-	it('tells us who wins the race that was run', function() {
 
+describe("runARace()", function() {
+	//accesses the objects
+	it('tells us who won the footrace', function() {
+	//adds the first and last name
+	var racers = {
+	'TheWinner': 'The Fastest Footracer',
 	};
-	expect(runARace(persons)).to.eql("The Winner is The Fastest Footracer")
+	expect(whowontherace(racers)).to.eql('The Fastest Footracer');
+
+
+

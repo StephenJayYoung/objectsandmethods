@@ -22,6 +22,11 @@
   	},
 	};
 
+module.exports.whoWonTheRace = function() {
+console.log(person[0]);
+};
+
+
 /**
  * Run a race!
  * @param {object} the race set to run.
