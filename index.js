@@ -1,17 +1,17 @@
 
 	var person = {
   name: 'The Fastest Footracer',
-  age: 28,
+  // age: 28,
 	};
 
 	var person2 = {
 		name: 'The Second Fastest Footracer'
-		age: 22,
+		// age: 22,
 	};
 
 	var person3 = {
 		name: 'The Underdog'
-		age: 20,
+		// age: 20,
 	};
 
 	var race = {
@@ -23,10 +23,10 @@
 	};
 
 module.exports.whoWonTheRace = function() {
-console.log(person[0]);
-var result = person[0]);
 };
+var result = (person.name);
 return result;
+
 
 
 /**
