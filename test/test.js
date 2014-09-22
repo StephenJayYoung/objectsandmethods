@@ -1,10 +1,10 @@
 var chai = require("chai");
 var lib = require('../index');
-var runARace = lib.runARace;
+var whoWonTheRace = lib.whoWonTheRace;
 
 
 
-describe("runARace()", function() {
+describe("whowontherace()", function() {
 	//accesses the objects
 	it('tells us who won the footrace', function() {
 	//adds the first and last name
@@ -12,7 +12,7 @@ describe("runARace()", function() {
 	var racers = {
 	'TheWinner': 'The Fastest Footracer',
 	};
-	expect(whowontherace(racers.TheWinner)).to.eql('The Fastest Footracer');
+	expect(whoWonTheRace(racers.TheWinner)).to.eql('The Fastest Footracer');
 	});
 
 	// describe ('isThereANumberInThatSpace()'function() {
